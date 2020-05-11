@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-color: #1f2536;
+  height: 65vh;
+}
+
+.logo {
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+
+.title {
+  color: white;
+  width: 25vw;
+  margin-top: 8vh;
+  margin-left: 10vw;
+  font-size: 3.5vh;
+}
+
+.text {
+  color: white;
+  width: 20vw;
+  margin-left: 10vw;
+}
+
+.button {
+  height: 4vh;
+  background-color: white;
+  margin-left: 10vw;
+}
+
+.containe-of-images_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  margin-top: 10vh;
+}
+
+.images_container {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+
+.image-text {
+  margin-left: 10%;
+}
